@@ -119,6 +119,20 @@ Home Page & Hero Carousel	Movie Detail Screen
 Debounced Search	Watchlist / Favorites
 (Add your screenshot here)	(Add your screenshot here)
 
+## 📸 App Screenshots
+
+| Home & Trending | Movie Details |
+|:---:|:---:|
+| <img src="screenshots/home.png" width="380"/> | <img src="screenshots/detail.png" width="380"/> |
+
+| Live Search | Empty State |
+|:---:|:---:|
+| <img src="screenshots/search.png" width="380"/> | <img src="screenshots/empty.png" width="380"/> |
+
+| Watchlist / Favorites |
+|:---:|
+| <img src="screenshots/favorites.png" width="380"/> |
+
 
 
 
@@ -127,7 +141,7 @@ Debounced Search	Watchlist / Favorites
 
 
 
-Video Walkthrough: Watch Demo Video
+Video Walkthrough: [▶ Click Here to Watch Demo Video](https://drive.google.com/drive/folders/1WM4NvMl-_XobXM-94yAE7ZKGZGZT6xJ8)
 
 
 
