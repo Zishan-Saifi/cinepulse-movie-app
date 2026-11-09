@@ -471,7 +471,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
 
-          // 2. DESKTOP FULL-WIDTH TOP NAVBAR (PEHLE JAISA)
+          // 2. DESKTOP / MOBILE RESPONSIVE TOP NAVBAR
           Positioned(
             top: 0,
             left: 0,
@@ -492,7 +492,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  // Logo + Navigation Links
+                  // Logo + Responsive Navigation Links
                   Row(
                     children: [
                       Container(
@@ -513,13 +513,16 @@ class _HomeScreenState extends State<HomeScreen> {
                           letterSpacing: 0.5,
                         ),
                       ),
-                      const SizedBox(width: 28),
-                      _buildHeaderLink('Home', true, () {}),
-                      _buildHeaderLink('Trending', false, () => _scrollToGenre(_trendingKey, 'Trending')),
-                      _buildHeaderLink('Movies', false, () => _scrollToGenre(_actionKey, 'Action')),
-                      _buildHeaderLink('Watchlist', false, () {
-                        Navigator.push(context, MaterialPageRoute(builder: (_) => const FavoritesScreen()));
-                      }),
+                      // Links tabhi dikhenge jab screen desktop/tablet width (> 700px) par ho
+                      if (MediaQuery.of(context).size.width > 700) ...[
+                        const SizedBox(width: 28),
+                        _buildHeaderLink('Home', true, () {}),
+                        _buildHeaderLink('Trending', false, () => _scrollToGenre(_trendingKey, 'Trending')),
+                        _buildHeaderLink('Movies', false, () => _scrollToGenre(_actionKey, 'Action')),
+                        _buildHeaderLink('Watchlist', false, () {
+                          Navigator.push(context, MaterialPageRoute(builder: (_) => const FavoritesScreen()));
+                        }),
+                      ],
                     ],
                   ),
 
