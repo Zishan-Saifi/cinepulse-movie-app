@@ -59,7 +59,7 @@ Clone the repository:
 
 
 
-git clone https://github.com/YOUR_USERNAME/cinepulse-movie-app.git
+git clone https://github.com/Zishan-Saifi/cinepulse-movie-app.git
 cd cinepulse-movie-app
 
 
