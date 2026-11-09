@@ -123,15 +123,15 @@ Debounced Search	Watchlist / Favorites
 
 | Home & Trending | Movie Details |
 |:---:|:---:|
-| <img src="screenshots/home.png" width="380"/> | <img src="screenshots/detail.png" width="380"/> |
+| <img src="screenshots/home.jpeg" width="380"/> | <img src="screenshots/detail.jpeg" width="380"/> |
 
 | Live Search | Empty State |
 |:---:|:---:|
-| <img src="screenshots/search.png" width="380"/> | <img src="screenshots/empty.png" width="380"/> |
+| <img src="screenshots/search.jpeg" width="380"/> | <img src="screenshots/empty.jpeg" width="380"/> |
 
 | Watchlist / Favorites |
 |:---:|
-| <img src="screenshots/favorites.png" width="380"/> |
+| <img src="screenshots/favorites.jpeg" width="380"/> |
 
 
 
